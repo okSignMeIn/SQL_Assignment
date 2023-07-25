@@ -1,0 +1,1 @@
+Retrieve the CustomerName, OrderID, and TotalAmount for customers who have placed orders with a total amount greater than 200.

@@ -1,0 +1,1 @@
+select CustomerName, c.CustomerID, no_of_orders, total, avg_of_t from customers c left join (select CustomerID, count(OrderID) as no_of_orders, sum(TotalAmount) as total, avg(TotalAmount) as avg_of_t from orders group by CustomerID) as tbl on tbl.CustomerID=c.CustomerID;

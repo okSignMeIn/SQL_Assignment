@@ -1,0 +1,1 @@
+select c.CustomerName, count(o.OrderID) as No_Of_Orders from customers c left join orders o on c.CustomerID=o.CustomerID group by c.CustomerName;

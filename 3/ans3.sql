@@ -1,0 +1,1 @@
+select c.CustomerName, avg(o.TotalAmount) as AVG_TOTAL_AMOUNT from customers c left join orders o on c.CustomerID=o.CustomerID group by c.CustomerName;

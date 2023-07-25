@@ -1,0 +1,1 @@
+Retrieve the CustomerName and the average TotalAmount of orders placed by each customer, including customers without any orders.

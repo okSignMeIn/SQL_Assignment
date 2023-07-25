@@ -1,0 +1,1 @@
+Retrieve the CustomerName and TotalAmount of all customers and orders, including unmatched records from both sides.
